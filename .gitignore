@@ -1,0 +1,11 @@
+.DS_Store
+*.log
+
+# Editor
+.vscode/
+.idea/
+
+# Env files (secrets) — each app's .gitignore also covers its own, this is a safety net
+.env
+.env.local
+.env*.local
